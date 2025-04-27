@@ -1,0 +1,31 @@
+.button-send {
+    background-color: #0a8648;
+    border: none;
+    outline: none; 
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .button-send:focus {
+    outline: none;
+  }
+  
+  .button-send:hover {
+    background-color: #074e2bad
+    ;
+  }
+
+  .button-send:active {
+    background-color: #086838;
+  }
+
+  .button-send:disabled {
+    background-color: #0a8648;
+    cursor: not-allowed;
+  }
+  

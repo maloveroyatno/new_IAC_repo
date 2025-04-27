@@ -1,0 +1,74 @@
+.header {
+  width: 100%;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.header__logo-container {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header__logo {
+  width: 60px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.header__title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header__members {
+  flex: 0 0 auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  column-gap: 5px;
+  line-height: 1.5;
+  font-family: 'Verdana', sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../assets/street.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.app-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}

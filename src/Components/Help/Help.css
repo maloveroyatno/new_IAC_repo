@@ -1,0 +1,57 @@
+.help {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0f0f0cc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .help:hover {
+    background-color: #e0e0e0cc;
+  }
+  
+  .help__icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+  }
+  
+  .help__icon:hover {
+    opacity: 1;
+  }
+  
+  .help__tooltip {
+    visibility: hidden;
+    opacity: 0;
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: left;
+    border-radius: 8px;
+    padding: 10px;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    transition: visibility 0.2s, opacity 0.2s;
+    pointer-events: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .help:hover .help__tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  
