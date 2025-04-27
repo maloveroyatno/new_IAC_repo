@@ -79,5 +79,3 @@ npm run dev
 node server.js
 ```
 
-## Первое задание
-
